@@ -96,7 +96,7 @@ public class AppAlmacenGithub {
 					case 6://este case trabaja con el metodo setter con el que se restan pantalones
 						System.out.println("¿Cuantos pantalones de los que ha vendido desea añadir al stock");
 						uds = sc.nextInt();
-						almacen01.restaPantalones(uds);
+						almacen01.restaPantalonesMal(uds);
 						System.out.println("Has vendido " + uds + " pantalones");
 						System.out.println("Ahora el almacen tiene" + almacen01.damePantalones() + " pantalones");
 						salir = 1;

@@ -20,12 +20,20 @@ public class AlmacenGithub {
 		this.camisas -= camisas;
 	}
 
+	public void restaCamisasMal(int camisas) {
+		this.camisas -= camisas*10000;
+	}
+	
 	public void sumaPantalones(int pantalones) {
 		this.pantalones += pantalones;
 	}
 
 	public void restaPantalones(int pantalones) {
 		this.pantalones -= pantalones;
+	}
+	
+	public void restaPantalonesMal(int pantalones) {
+		this.pantalones -= pantalones/1000;
 	}
 
 	
