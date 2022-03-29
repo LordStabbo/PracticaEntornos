@@ -5,7 +5,7 @@ public class AlmacenGithub {
 	private int pantalones;
 
 	// constructor
-	public almacen(int camisas, int pantalones) {
+	public AlmacenGithub(int camisas, int pantalones) {
 		this.camisas = camisas;
 		this.pantalones = pantalones;
 	}
