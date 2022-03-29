@@ -1,5 +1,5 @@
 package PutoPackage;
-
+//otro comment para la practica
 public class AlmacenGithub {
 	private int camisas;
 	private int pantalones;
